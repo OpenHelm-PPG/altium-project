@@ -55,23 +55,6 @@ GenerateClassCluster=0
 DocumentUniqueId=HGHXYBWV
 
 [Document2]
-DocumentPath=open_helm_v2.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document3]
 DocumentPath=v2.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -87,6 +70,137 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SUMTBVHL
+
+[Document3]
+DocumentPath=out.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document4]
+DocumentPath=Project Outputs for open_helm_v2\2020-08-09\gerber.Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document5]
+DocumentPath=Project Outputs for open_helm_v2\2020-08-09\drill.Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for open_helm_v2\Design Rule Check - v2.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for open_helm_v2\v2-RectHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for open_helm_v2\v2-RoundHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for open_helm_v2\v2-SlotHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for open_helm_v2\v2.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for open_helm_v2\v2.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for open_helm_v2\v2.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for open_helm_v2\v2.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for open_helm_v2\v2.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for open_helm_v2\v2.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for open_helm_v2\v2.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for open_helm_v2\v2.GM13
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for open_helm_v2\v2.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for open_helm_v2\v2.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for open_helm_v2\v2.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for open_helm_v2\v2.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for open_helm_v2\v2.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for open_helm_v2\v2.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for open_helm_v2\v2.REP
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for open_helm_v2\v2.RUL
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
@@ -344,20 +458,44 @@ Name=Fabrication Outputs
 Description=
 TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Board Stack Report
-OutputName1=Report Board Stack
+OutputType1=CompositeDrill
+OutputName1=Composite Drill Drawing
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType2=CompositeDrill
-OutputName2=Composite Drill Drawing
+OutputType2=Drill
+OutputName2=Drill Drawing/Guides
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
-PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType3=Drill
-OutputName3=Drill Drawing/Guides
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=3.23|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration2_Name1=ForceUpdateSettings
+Configuration2_Item1=False
+Configuration2_Name2=OutputConfigurationParameter1
+Configuration2_Item2=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView
+Configuration2_Name3=OutputConfigurationParameter2
+Configuration2_Item3=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Drill Drawing For (Bottom Layer,Top Layer)|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration2_Name4=OutputConfigurationParameter3
+Configuration2_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=BottomLayer|DLayer2=TopLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=DrillDrawing|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration2_Name5=OutputConfigurationParameter4
+Configuration2_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration2_Name6=OutputConfigurationParameter5
+Configuration2_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration2_Name7=OutputConfigurationParameter6
+Configuration2_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration2_Name8=OutputConfigurationParameter7
+Configuration2_Item8=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=1|Mirror=False|Name=Drill Guide For (Bottom Layer,Top Layer)|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration2_Name9=OutputConfigurationParameter8
+Configuration2_Item9=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=BottomLayer|DLayer2=TopLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=DrillGuide|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
+Configuration2_Name10=OutputConfigurationParameter9
+Configuration2_Item10=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
+Configuration2_Name11=OutputConfigurationParameter10
+Configuration2_Item11=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
+Configuration2_Name12=OutputConfigurationParameter11
+Configuration2_Item12=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
+OutputType3=Board Stack Report
+OutputName3=Report Board Stack
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
@@ -368,82 +506,108 @@ OutputDocumentPath4=
 OutputVariantName4=[No Variations]
 OutputDefault4=0
 PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType5=Gerber
-OutputName5=Gerber Files
+OutputType5=Gerber X2
+OutputName5=Gerber X2 Files
 OutputDocumentPath5=
-OutputVariantName5=[No Variations]
+OutputVariantName5=
 OutputDefault5=0
-OutputType6=Gerber X2
-OutputName6=Gerber X2 Files
+OutputType6=ODB
+OutputName6=ODB++ Files
 OutputDocumentPath6=
-OutputVariantName6=
+OutputVariantName6=[No Variations]
 OutputDefault6=0
-OutputType7=IPC2581
-OutputName7=IPC-2581 Files
+OutputType7=Mask
+OutputName7=Solder/Paste Mask Prints
 OutputDocumentPath7=
 OutputVariantName7=
 OutputDefault7=0
-OutputType8=Mask
-OutputName8=Solder/Paste Mask Prints
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType8=NC Drill
+OutputName8=NC Drill Files
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
-PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType9=NC Drill
-OutputName9=NC Drill Files
+Configuration8_Name1=ForceUpdateSettings
+Configuration8_Item1=False
+Configuration8_Name2=OutputConfigurationParameter1
+Configuration8_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressLeadingZeroes
+OutputType9=IPC2581
+OutputName9=IPC-2581 Files
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=ODB
-OutputName10=ODB++ Files
+OutputType10=Plane
+OutputName10=Power-Plane Prints
 OutputDocumentPath10=
-OutputVariantName10=[No Variations]
+OutputVariantName10=
 OutputDefault10=0
-OutputType11=Plane
-OutputName11=Power-Plane Prints
+PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType11=Test Points
+OutputName11=Test Point Report
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType12=Test Points
-OutputName12=Test Point Report
+OutputType12=Gerber
+OutputName12=Gerber Files
 OutputDocumentPath12=
-OutputVariantName12=
+OutputVariantName12=[No Variations]
 OutputDefault12=0
+Configuration12_Name1=ForceUpdateSettings
+Configuration12_Item1=False
+Configuration12_Name2=OutputConfigurationParameter1
+Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16842751~1,16973835~1,16973833~1,16973831~1,16908301~1,16908303~1,16973837~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=True|Sorted=False|Sorted=False
 
 [OutputGroup6]
 Name=Report Outputs
 Description=
 TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=BOM_PartType
-OutputName1=Bill of Materials
+OutputType1=Script
+OutputName1=Script Output
 OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType2=ComponentCrossReference
-OutputName2=Component Cross Reference Report
+OutputType2=SimpleBOM
+OutputName2=Simple BOM
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
-OutputType3=ReportHierarchy
-OutputName3=Report Project Hierarchy
+OutputType3=SinglePinNetReporter
+OutputName3=Report Single Pin Nets
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
-OutputType4=Script
-OutputName4=Script Output
+OutputType4=BOM_PartType
+OutputName4=Bill of Materials
 OutputDocumentPath4=
 OutputVariantName4=[No Variations]
 OutputDefault4=0
-OutputType5=SimpleBOM
-OutputName5=Simple BOM
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration4_Name1=ColumnNameFormat
+Configuration4_Item1=CaptionAsName
+Configuration4_Name2=Filter
+Configuration4_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
+Configuration4_Name3=ForceUpdateSettings
+Configuration4_Item3=False
+Configuration4_Name4=General
+Configuration4_Item4=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=False|IncludeVaultData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|BatchMode=0|FormWidth=3021|FormHeight=1589|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|ViewType=0
+Configuration4_Name5=GroupOrder
+Configuration4_Item5=Comment=True|Footprint=True
+Configuration4_Name6=SortOrder
+Configuration4_Item6=Supplier 1=Up
+Configuration4_Name7=VisibleOrder
+Configuration4_Item7=Description=234|Designator=104|Footprint=73|Quantity=36|Supplier 1=76|Supplier Part Number 1=76|Supplier Stock 1=76|Value=76
+OutputType5=ComponentCrossReference
+OutputName5=Component Cross Reference Report
 OutputDocumentPath5=
 OutputVariantName5=[No Variations]
 OutputDefault5=0
-OutputType6=SinglePinNetReporter
-OutputName6=Report Single Pin Nets
+Configuration5_Name1=ColumnNameFormat
+Configuration5_Item1=CaptionAsName
+Configuration5_Name2=ForceUpdateSettings
+Configuration5_Item2=False
+OutputType6=ReportHierarchy
+OutputName6=Report Project Hierarchy
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
@@ -1078,14 +1242,14 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=Celestial Altium Library - altium_library.DbLib/Capacitors - Ceramic - 0805
 ComponentDesignItemID0=C0805C565K9PACTU
 ComponentSymbolReference0=Capacitor
-ComponentUpdate0=0
+ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 ComponentLibIdentifierKind1=Library Name And Type
 ComponentLibraryIdentifier1=Celestial Altium Library - altium_library.DbLib/Capacitors - Tantalum - Polymer
@@ -1119,33 +1283,33 @@ ComponentUpdate5=0
 ComponentIsDeviceSheet5=0
 ComponentLibIdentifierKind6=Library Name And Type
 ComponentLibraryIdentifier6=ZLib.IntLib
-ComponentDesignItemID6=GroundConnector
-ComponentSymbolReference6=GroundConnector
+ComponentDesignItemID6=LM386
+ComponentSymbolReference6=LM386
 ComponentUpdate6=0
 ComponentIsDeviceSheet6=0
 ComponentLibIdentifierKind7=Library Name And Type
 ComponentLibraryIdentifier7=ZLib.IntLib
-ComponentDesignItemID7=LM386
-ComponentSymbolReference7=LM386
+ComponentDesignItemID7=LM4562
+ComponentSymbolReference7=LM4562
 ComponentUpdate7=0
 ComponentIsDeviceSheet7=0
 ComponentLibIdentifierKind8=Library Name And Type
 ComponentLibraryIdentifier8=ZLib.IntLib
-ComponentDesignItemID8=LM4562
-ComponentSymbolReference8=LM4562
-ComponentUpdate8=1
+ComponentDesignItemID8=LUMBERG150105
+ComponentSymbolReference8=LUMBERG150105
+ComponentUpdate8=0
 ComponentIsDeviceSheet8=0
 ComponentLibIdentifierKind9=Library Name And Type
 ComponentLibraryIdentifier9=ZLib.IntLib
-ComponentDesignItemID9=LUMBERG150105
-ComponentSymbolReference9=LUMBERG150105
+ComponentDesignItemID9=NetConnector
+ComponentSymbolReference9=NetConnector
 ComponentUpdate9=0
 ComponentIsDeviceSheet9=0
 ComponentLibIdentifierKind10=Library Name And Type
 ComponentLibraryIdentifier10=ZLib.IntLib
 ComponentDesignItemID10=RPot
 ComponentSymbolReference10=RPot
-ComponentUpdate10=0
+ComponentUpdate10=1
 ComponentIsDeviceSheet10=0
 ComponentLibIdentifierKind11=Library Name And Type
 ComponentLibraryIdentifier11=ZLib.IntLib
@@ -1153,201 +1317,109 @@ ComponentDesignItemID11=USBC
 ComponentSymbolReference11=USBC
 ComponentUpdate11=0
 ComponentIsDeviceSheet11=0
-FullReplace=1
+FullReplace=0
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
 PreserveParameterLocations=1
 PreserveParameterVisibility=1
 DoGraphics=1
-DoParameters=1
+DoParameters=0
 DoModels=1
 AddParameters=0
 RemoveParameters=0
 AddModels=1
-RemoveModels=1
-UpdateCurrentModels=1
-ParameterName0=Availability
+RemoveModels=0
+UpdateCurrentModels=0
+ParameterName0=Color
 ParameterUpdate0=1
-ParameterName1=Capacitance
+ParameterName1=Comment
 ParameterUpdate1=1
-ParameterName2=Color
+ParameterName2=Component Kind
 ParameterUpdate2=1
-ParameterName3=Comment
+ParameterName3=ComponentLink1Description
 ParameterUpdate3=1
-ParameterName4=Component Kind
+ParameterName4=ComponentLink1URL
 ParameterUpdate4=1
-ParameterName5=ComponentLink1Description
+ParameterName5=ComponentLink2Description
 ParameterUpdate5=1
-ParameterName6=ComponentLink1URL
+ParameterName6=ComponentLink2URL
 ParameterUpdate6=1
-ParameterName7=ComponentLink2Description
+ParameterName7=Description
 ParameterUpdate7=1
-ParameterName8=ComponentLink2URL
+ParameterName8=Device Package
 ParameterUpdate8=1
-ParameterName9=Composition
+ParameterName9=Library Reference
 ParameterUpdate9=1
-ParameterName10=Configuration
+ParameterName10=Package / Case
 ParameterUpdate10=1
-ParameterName11=Current - Test
+ParameterName11=Part Number
 ParameterUpdate11=1
-ParameterName12=Description
+ParameterName12=Supplier 1
 ParameterUpdate12=1
-ParameterName13=Device Package
+ParameterName13=Supplier Part Number 1
 ParameterUpdate13=1
-ParameterName14=Digi-Key_Part_Number
+ParameterName14=Value
 ParameterUpdate14=1
-ParameterName15=Digi-Key_Purchase_URL
+ParameterName15=Voltage - Rated
 ParameterUpdate15=1
-ParameterName16=ESR (Equivalent Series Resistance)
-ParameterUpdate16=1
-ParameterName17=Features
-ParameterUpdate17=1
-ParameterName18=Height - Seated (Max)
-ParameterUpdate18=1
-ParameterName19=Height (Max)
-ParameterUpdate19=1
-ParameterName20=LastUpdated
-ParameterUpdate20=1
-ParameterName21=LatestRevisionDate
-ParameterUpdate21=1
-ParameterName22=LatestRevisionNote
-ParameterUpdate22=1
-ParameterName23=Lens Color
-ParameterUpdate23=1
-ParameterName24=Lens Size
-ParameterUpdate24=1
-ParameterName25=Lens Style
-ParameterUpdate25=1
-ParameterName26=Lens Transparency
-ParameterUpdate26=1
-ParameterName27=Library Reference
-ParameterUpdate27=1
-ParameterName28=Lifecycle Status
-ParameterUpdate28=1
-ParameterName29=Lifetime @ Temp.
-ParameterUpdate29=1
-ParameterName30=Manufacturer
-ParameterUpdate30=1
-ParameterName31=Manufacturer Size Code
-ParameterUpdate31=1
-ParameterName32=MF
-ParameterUpdate32=1
-ParameterName33=Millicandela Rating
-ParameterUpdate33=1
-ParameterName34=Minimum Order
-ParameterUpdate34=1
-ParameterName35=Mounting Type
-ParameterUpdate35=1
-ParameterName36=MP
-ParameterUpdate36=1
-ParameterName37=Number of Terminations
-ParameterUpdate37=1
-ParameterName38=Operating Temperature
-ParameterUpdate38=1
-ParameterName39=Package
-ParameterUpdate39=1
-ParameterName40=Package / Case
-ParameterUpdate40=1
-ParameterName41=PackageDescription
-ParameterUpdate41=1
-ParameterName42=PackageReference
-ParameterUpdate42=1
-ParameterName43=Packaging
-ParameterUpdate43=1
-ParameterName44=Part Number
-ParameterUpdate44=1
-ParameterName45=Part Status
-ParameterUpdate45=1
-ParameterName46=PartId
-ParameterUpdate46=1
-ParameterName47=Power (Watts)
-ParameterUpdate47=1
-ParameterName48=Price
-ParameterUpdate48=1
-ParameterName49=Published
-ParameterUpdate49=1
-ParameterName50=Publisher
-ParameterUpdate50=1
-ParameterName51=Ratings
-ParameterUpdate51=1
-ParameterName52=Resistance
-ParameterUpdate52=1
-ParameterName53=Series
-ParameterUpdate53=1
-ParameterName54=Set Position
-ParameterUpdate54=1
-ParameterName55=Sim Note
-ParameterUpdate55=1
-ParameterName56=Size / Dimension
-ParameterUpdate56=1
-ParameterName57=SnapEDA_Link
-ParameterUpdate57=1
-ParameterName58=Supplier 1
-ParameterUpdate58=1
-ParameterName59=Supplier Device Package
-ParameterUpdate59=1
-ParameterName60=Supplier Part Number 1
-ParameterUpdate60=1
-ParameterName61=Temperature Coefficient
-ParameterUpdate61=1
-ParameterName62=Toby_UK-Purchase-URL
-ParameterUpdate62=1
-ParameterName63=Tolerance
-ParameterUpdate63=1
-ParameterName64=Type
-ParameterUpdate64=1
-ParameterName65=Value
-ParameterUpdate65=1
-ParameterName66=Viewing Angle
-ParameterUpdate66=1
-ParameterName67=Voltage - Forward (Vf) (Typ)
-ParameterUpdate67=1
-ParameterName68=Voltage - Rated
-ParameterUpdate68=1
-ParameterName69=Wavelength - Dominant
-ParameterUpdate69=1
-ParameterName70=Wavelength - Peak
-ParameterUpdate70=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=3312
+ModelName0=3224W
 ModelUpdate0=1
 ModelType1=PCBLIB
-ModelName1=CAP 0805_2012
+ModelName1=3312
 ModelUpdate1=1
 ModelType2=PCBLIB
-ModelName2=CAP POL 2917_7343
+ModelName2=CAP 0805_2012
 ModelUpdate2=1
 ModelType3=PCBLIB
-ModelName3=GroundConnector
+ModelName3=CAP 1206_3216
 ModelUpdate3=1
 ModelType4=PCBLIB
-ModelName4=KLBR4
+ModelName4=CAP POL 1411_3528
 ModelUpdate4=1
 ModelType5=PCBLIB
-ModelName5=LED 0805_2012 RED
+ModelName5=EEEFT-D8
 ModelUpdate5=1
 ModelType6=PCBLIB
-ModelName6=LUMBERG150105
+ModelName6=KLBR4
 ModelUpdate6=1
 ModelType7=PCBLIB
-ModelName7=MC001002
+ModelName7=LED 0805_2012 RED
 ModelUpdate7=1
 ModelType8=PCBLIB
-ModelName8=RES 0805_2012
+ModelName8=LM386D
 ModelUpdate8=1
 ModelType9=PCBLIB
-ModelName9=RK09K1130C94
+ModelName9=LM4562
 ModelUpdate9=1
 ModelType10=PCBLIB
-ModelName10=VR5
+ModelName10=LUMBERG150105
 ModelUpdate10=1
+ModelType11=PCBLIB
+ModelName11=MC001002
+ModelUpdate11=1
+ModelType12=PCBLIB
+ModelName12=NetConnector
+ModelUpdate12=1
+ModelType13=PCBLIB
+ModelName13=RES 0805_2012
+ModelUpdate13=1
+ModelType14=PCBLIB
+ModelName14=RK09
+ModelUpdate14=1
+ModelType15=PCBLIB
+ModelName15=RK09K1130C94
+ModelUpdate15=1
+ModelType16=PCBLIB
+ModelName16=VR5
+ModelUpdate16=1
 ModelTypeGroup1=SIM
 ModelTypeUpdate1=1
-ModelType11=SIM
-ModelName11=POT
-ModelUpdate11=1
+ModelType17=SIM
+ModelName17=POT
+ModelUpdate17=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
